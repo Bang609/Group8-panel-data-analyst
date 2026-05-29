@@ -1,0 +1,21 @@
+---
+title: "EDA GRAPH AND PLOT"
+format: docx
+editor: visual
+---
+
+HISTOGRAM1:
+
+![](images/clipboard-1495049401.png)
+
+HISTOGRAM2:
+
+![](images/clipboard-4191546716.png)
+
+scatter plot1:
+
+![scatter plot2:](images/clipboard-2575200688.png)
+
+![BOXPLOT:](images/clipboard-1080217048.png)
+
+![](images/clipboard-640036989.png)
