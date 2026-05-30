@@ -1,0 +1,35 @@
+Oneway (individual) effect Random Effect Model 
+   (Swamy-Arora's transformation)
+
+Call:
+plm(formula = lcriv ~ govelec + unem + black + metro + lpris, 
+    data = pdata, model = "random")
+
+Balanced Panel: n = 51, T = 14, N = 714
+
+Effects:
+                  var std.dev share
+idiosyncratic 0.01904 0.13800 0.219
+individual    0.06803 0.26083 0.781
+theta: 0.86
+
+Residuals:
+      Min.    1st Qu.     Median    3rd Qu.       Max. 
+-0.4649710 -0.0976934 -0.0072977  0.0941012  0.5805904 
+
+Coefficients:
+             Estimate Std. Error z-value  Pr(>|z|)    
+(Intercept) -0.573225   0.138660 -4.1340 3.565e-05 ***
+govelec      0.012496   0.012549  0.9958    0.3194    
+unem        -1.600337   0.353009 -4.5334 5.804e-06 ***
+black        1.683369   0.326994  5.1480 2.633e-07 ***
+metro        1.565638   0.163401  9.5816 < 2.2e-16 ***
+lpris        0.180077   0.019326  9.3178 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Total Sum of Squares:    22.815
+Residual Sum of Squares: 14.448
+R-Squared:      0.36672
+Adj. R-Squared: 0.36225
+Chisq: 409.998 on 5 DF, p-value: < 2.22e-16

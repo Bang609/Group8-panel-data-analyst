@@ -1,0 +1,7 @@
+
+	Lagrange Multiplier Test - (Breusch-Pagan)
+
+data:  lcriv ~ govelec + unem + black + metro + lpris
+chisq = 1993.3, df = 1, p-value < 2.2e-16
+alternative hypothesis: significant effects
+

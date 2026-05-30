@@ -1,0 +1,28 @@
+Pooling Model
+
+Call:
+plm(formula = lcriv ~ govelec + unem + black + metro + lpris, 
+    data = pdata, model = "pooling")
+
+Balanced Panel: n = 51, T = 14, N = 714
+
+Residuals:
+      Min.    1st Qu.     Median    3rd Qu.       Max. 
+-1.0734225 -0.2182112  0.0055003  0.2138991  1.1836184 
+
+Coefficients:
+             Estimate Std. Error  t-value  Pr(>|t|)    
+(Intercept) -2.775755   0.143297 -19.3706 < 2.2e-16 ***
+govelec     -0.014183   0.028189  -0.5031  0.615025    
+unem         3.681583   0.564662   6.5200 1.337e-10 ***
+black        0.440253   0.135356   3.2525  0.001198 ** 
+metro        1.412483   0.057228  24.6818 < 2.2e-16 ***
+lpris        0.584895   0.027538  21.2396 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Total Sum of Squares:    305.58
+Residual Sum of Squares: 74.855
+R-Squared:      0.75504
+Adj. R-Squared: 0.75331
+F-statistic: 436.445 on 5 and 708 DF, p-value: < 2.22e-16
