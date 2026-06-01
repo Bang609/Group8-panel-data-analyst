@@ -1,0 +1,7 @@
+
+	Hausman Test
+
+data:  lcriv ~ govelec + unem + black + metro + lpris
+chisq = 128.89, df = 5, p-value < 2.2e-16
+alternative hypothesis: one model is inconsistent
+

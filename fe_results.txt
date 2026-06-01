@@ -1,0 +1,27 @@
+Twoways effects Within Model
+
+Call:
+plm(formula = lcriv ~ govelec + unem + black + metro + lpris, 
+    data = pdata, effect = "twoways", model = "within")
+
+Balanced Panel: n = 51, T = 14, N = 714
+
+Residuals:
+      Min.    1st Qu.     Median    3rd Qu.       Max. 
+-0.4974136 -0.0600746  0.0052327  0.0648991  0.4531950 
+
+Coefficients:
+          Estimate Std. Error t-value  Pr(>|t|)    
+govelec  0.0069278  0.0129871  0.5334 0.5939151    
+unem    -1.4365339  0.4175472 -3.4404 0.0006183 ***
+black   -1.5270999  1.2496369 -1.2220 0.2221408    
+metro    1.1546673  0.3567069  3.2370 0.0012697 ** 
+lpris   -0.1561659  0.0410174 -3.8073 0.0001539 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Total Sum of Squares:    9.7391
+Residual Sum of Squares: 9.1018
+R-Squared:      0.065442
+Adj. R-Squared: -0.033085
+F-statistic: 9.03322 on 5 and 645 DF, p-value: 2.5963e-08
