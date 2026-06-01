@@ -1,0 +1,49 @@
+---
+title: "EDA GRAPH AND PLOT"
+format: docx
+editor: visual
+---
+
+Visualize Within variation:
+
+![](images/clipboard-3017548485.png)
+
+Visualize Within variation:
+
+![](images/clipboard-1838941745.png)
+
+HISTOGRAM1:
+
+![](images/clipboard-1495049401.png)
+
+HISTOGRAM2:
+
+![](images/clipboard-4191546716.png)
+
+Trend plot crime rate:
+
+![](images/clipboard-3277494291.png)
+
+Correlation heatmap:
+
+![](images/clipboard-491926015.png)
+
+scatter plot1:
+
+![scatter plot2:](images/clipboard-2575200688.png)
+
+![BOXPLOT OF LCRIV:](images/clipboard-1080217048.png)
+
+![](images/clipboard-640036989.png)
+
+BOXPLOT OF CRIME RATE:
+
+![](images/clipboard-3883742613.png)
+
+DISTRIBUTION OF CRIME RATE BY YEAR:
+
+![](images/clipboard-922144327.png)
+
+CRIME RATE TREND ACROSS STATES:
+
+![](images/clipboard-2629677539.png)
